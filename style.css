@@ -163,6 +163,7 @@
 
 .bg-footer {
     background-color: #1a1c1b;
+    overflow: hidden;
 }
 
 .footer-nav {
@@ -342,6 +343,10 @@
     .sea-god {
         margin-bottom: 25%!important;
     }
+
+    .title {
+        font-size: xx-large;
+    }
 }
 
 @media screen and (max-width: 390px) {
@@ -353,5 +358,20 @@
 @media screen and (max-width: 768px) {
     .play-btn {
       font-size: xx-large;
+    }
+    .title {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .title {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .title {
+        font-size: large;
     }
 }
